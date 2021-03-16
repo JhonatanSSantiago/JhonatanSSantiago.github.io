@@ -114,3 +114,8 @@
 .conteudoText{
   padding: 10px;
 }
+
+.groupConteudo {
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+}
