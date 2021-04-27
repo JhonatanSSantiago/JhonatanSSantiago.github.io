@@ -1,148 +1,82 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Jhonatan Santiago</title>
-         <meta charset="UTF-8">
-        <meta name="google-site-verification" content="5R8WLnyeZZ2UPAxXdiwS5_5v4zSkNOaGacN5vuMvVIQ" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/main.css"> <!--Estilo-->
-        <!--Oowl css-->
-        <link rel="stylesheet" href="style/owl.carousel.min.css">
-        <link rel="stylesheet" href="style/owl.theme.default.min.css">
-        <link rel="shortcut icon" href="img/Icone.ico" type="image/x-icon"/> <!--Icone-->
-    </head>
-
-    <body>
-      <header class="cabecalho"> <!--Cabeçalho-->
-        <div class="group">
-          <div class="perfil-foto">
-            <img class="perfil-foto" src="img/perfil.png">
-          </div>
-          <div>
-            <h1>Jhonatan Santiago</h1>
-          </div>       
-        </div> 
-      </header>    <!--Fim do Cabeçalho-->
-      
-      <div class="menu"> <!--Menu-->
-        <div class="menu" id="infoPessoais" onclick="MsgError()">Informações Pessoais</div>
-        <div class="menu" id="educacao" onclick="MsgError()">Formação</div>
-        <div class="menu" id="atividades" onclick="MsgError()">Atividades extracurriculares</div>
-        <div class="menu" id="contato" onclick="MsgError()">Contato</div>
-      </div> <!--Fim do Menu-->
-       
-     <div id="conteudo" class="groupConteudo">
-        <div class="infoPessoais visivel">
-          <h3>Informações Pessoais:</h3>
-          <div class="conteudoText">
-            <h1>Em Contrução...</h1>
-          </div>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="style/img/Icone.ico" type="image/x-icon"/> <!--Icone-->
+    <title>Jhonatan Santiago</title>
+</head>
+<body>
+    <div  class="navbar"> 
+        <div class="navbar" id="container-main" >Home</div>
+        <div class="navbar" id="educacao" >Sobre</div>
+        <div class="navbar" id="atividades">Contato</div>
+            
+    </div> 
+    <header class="container-header">
+        <div class="perfil-foto">
+            <img class="perfil-foto" src="style/img/perfil.png">
         </div>
-
+        <h1>Jhonatan Santiago</h1>
+        <h2>Front-end Developer</h2>
+        
+        <div class="container-social-media">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+            <a href="#">Outras</a>
+        </div>
+    </header>
+    <div id="conteudo">
+  
         <div class="educacao">
-          <h2>Formação:</h2>
-          <div class="conteudoText">
-            <p>Graduação superior (cursando)</p>
-            <h4>Sistemas Para Internet, Instituto Federal do Tocantins (IFTO)</h4>
-            <p>Abril de 2018 - Cursando</p>
-          </div>
+            <h2>Formação:</h2>
+            <div class="conteudoText">
+              <p>texto</p>
+              <h4>texto</h4>
+              <p>texto</p>
+            </div>
         </div>
 
-
-       
-
-        <div class="educacao">
-          <h2>Cursos Complementares:</h2>
-          <div class="conteudoText">
-            <h4>Introdução a Criação de Websites com HTML5 e CSS3 - Digital Innovation One</h4>
-            <p>Período: 26 de novembro de 2020 (6 horas/aula) - Concluído</p>
-          </div>
-          <div class="conteudoText">
-            <h4>Lógica de Programação Essencial - Digital Innovation One</h4>
-            <p>Período: 26 de novembro de 2020 (4 horas/aula) - Concluído</p>
-          </div>
-          <div class="conteudoText">
-            <h4>Lógica de Programação Essencial - Digital Innovation One</h4>
-            <p>Período: 26 de novembro de 2020 (4 horas/aula) - Concluído</p>
-          </div>
-        </div>
-
-        <div class="atividades">
-          <div class="carrosel-filmes">
-            <div class="owl-carousel owl-theme">
-                <div class="intem">
-                    <img class="box-filme" src="img/himym-fundo.jpg" alt="" width="100" srcset="">
-                    <div class="group groupConteudo">
-                      <h4>Participação no Bootcamp HTML Web Developer - Digital Innovation One</h4>
-                      Período: 26 de Novembro de 2020 a 13 de Dezembro de 2020 (72 horas)
+        <div class="container-main visivel"> 
+             
+            <div class="container-card"> <!--Card de projeto-->
+                <div class="card">
+                    <div class="card-wrapper">
+                        <h2>Projeto</h2>
+                        <a href="">Veja</a>
                     </div>
                 </div>
-                <div class="intem">
-                  <img class="box-filme" src="img/himym-fundo.jpg" alt="" width="100" srcset="">
-                  <div class="group groupConteudo">
-                    <h4>Participação no Bootcamp HTML Web Developer - Digital Innovation One</h4>
-                    Período: 26 de Novembro de 2020 a 13 de Dezembro de 2020 (72 horas)
-                  </div>
-              </div>
-              <div class="intem">
-                <img class="box-filme" src="img/himym-fundo.jpg" alt="" width="100" srcset="">
-                <div class="group groupConteudo">
-                  <h4>Participação no Bootcamp HTML Web Developer - Digital Innovation One</h4>
-                  Período: 26 de Novembro de 2020 a 13 de Dezembro de 2020 (72 horas)
+                <div class="card-text">
+                    <h3 class="titulo-projeto">Titulo</h3>
+                    
+                    <p>Descrição</p>
                 </div>
             </div>
-            <div class="intem">
-              <img class="box-filme" src="img/himym-fundo.jpg" alt="" width="100" srcset="">
-              <div class="group groupConteudo">
-                <h4>Participação no Bootcamp HTML Web Developer - Digital Innovation One</h4>
-                Período: 26 de Novembro de 2020 a 13 de Dezembro de 2020 (72 horas)
-              </div>
-          </div>
-          <div class="intem">
-            <img class="box-filme" src="img/himym-fundo.jpg" alt="" width="100" srcset="">
-            <div class="group groupConteudo">
-              <h4>Participação no Bootcamp HTML Web Developer - Digital Innovation One</h4>
-              Período: 26 de Novembro de 2020 a 13 de Dezembro de 2020 (72 horas)
+            <div class="container-card"> <!--Card de projeto-->
+                <div class="card">
+                    <div class="card-wrapper">
+                        <h2>Projeto</h2>
+                        <a href="">Veja</a>
+                    </div>
+                </div>
+                <div class="card-text">
+                    <h3 class="titulo-projeto">Titulo</h3>
+                    
+                    <p>Descrição</p>
+                </div>
             </div>
         </div>
-    
-    
-            </div>
-        </div>
-    
-        </div>
-
-
-        <div class="contato">
-          <h3>Contato:</h3>
-          <div class="conteudoText">
-            <h1>Em Contrução...</h1>
-          </div>
-        </div>
-        <div class="contato">
-          <h3>Redes Sociais:</h3>
-          <div class="conteudoText">
-            <h1>Em Contrução...</h1>
-          </div>
-        </div>
     </div>
+    
 
-    <div class="limpa"> </div>
-
-    </div>
-        <footer class="rodape"> <!--Rodape-->
-          <div class="group">
-            <small>Todos os direitos reservados</small>
-            Feito com ❤ por  <a href="mailto:jhonssantiago@gmail.com">Jhonatan Santiago</a>
-          </div>
-            
-        </footer>   <!--Fim do Rodape-->
-        
-        <!--owl js-->
-    <script src="codigo/jquery-1.11.1.min.js"></script>
-    <script src="codigo/owl.carousel.min.js"></script>
-    <script src="codigo/setup.js"></script>
-    <script src="codigo/main.js" charset="UTF-8"></script>
-    <script type="text/javascript" src="codigo/jquery-1.11.1.min.js"></script>                  
-    </body>
+    
+    <footer class="container-footer">
+        <small>Todos os direitos reservados</small>
+           <h5> Feito com ❤ por  <a href="mailto:jhonssantiago@gmail.com">Jhonatan Santiago</a></h5>
+    </footer>
+   <script src="js/jquery-1.11.1.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
 </html>
