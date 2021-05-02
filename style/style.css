@@ -89,6 +89,19 @@ a:hover {
 
 
 /* main */
+*.about {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /*muda a dirençao*/
+    justify-content: space-evenly;
+    margin: 2rem 0;
+}
+
+.about p{
+    padding-left: 10px;
+}
+
 
 *.container-main {
     height: auto;
@@ -120,7 +133,7 @@ a:hover {
     align-items: center;
     justify-content: center;
     background-color: aqua;
-    background-image: url("img/Perfil.jpg");
+  /*  background-image: url("img/Perfil.jpg"); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -158,14 +171,14 @@ a:hover {
 }
 
 .card-wrapper h2 {
-    font-size: 40px;
+    font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 4px;
     margin: 0;
     transition: 0.5s ease-in-out;
 }
 
-.card-wrapper a {
+.card-wrapper p {
     font-size: 0;
     visibility: hidden;
     opacity: 0;
@@ -186,7 +199,7 @@ a:hover {
     opacity: 1;
 }
 
-.card:hover > .card-wrapper a {
+.card:hover > .card-wrapper p {
     opacity: 1;
     visibility: visible;
     font-size: 14px;
